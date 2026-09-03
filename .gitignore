@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Local AWS/project artifacts
+ghost-hunter-lambda.zip
+
+# Real AWS inventory and evidence
+reports/raw_inventory.json
+reports/ghost_report.json
+reports/final_ghost_report.json
+reports/evidence/
+
+# Local generated reports
+reports/*.json
+
+# AWS local configuration
+.aws/

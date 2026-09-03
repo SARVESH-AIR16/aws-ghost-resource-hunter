@@ -1,0 +1,44 @@
+{
+  "Resources": [
+    {
+      "Arn": "arn:aws:ec2:ap-south-1::instance/i-mock-running",
+      "OwningAccountId": "",
+      "Region": "ap-south-1",
+      "ResourceType": "ec2:instance",
+      "Service": "ec2",
+      "Properties": []
+    },
+    {
+      "Arn": "arn:aws:ec2:ap-south-1::volume/vol-mock-unused",
+      "OwningAccountId": "",
+      "Region": "ap-south-1",
+      "ResourceType": "ec2:volume",
+      "Service": "ec2",
+      "Properties": []
+    },
+    {
+      "Arn": "arn:aws:ec2:ap-south-1::eip/eip-mock-unused",
+      "OwningAccountId": "",
+      "Region": "ap-south-1",
+      "ResourceType": "ec2:elastic-ip",
+      "Service": "ec2",
+      "Properties": []
+    },
+    {
+      "Arn": "arn:aws:ec2:ap-south-1::vpc/vpc-mock-default",
+      "OwningAccountId": "",
+      "Region": "ap-south-1",
+      "ResourceType": "ec2:vpc",
+      "Service": "ec2",
+      "Properties": []
+    },
+    {
+      "Arn": "arn:aws:xray:ap-south-1::sampling-rule/Default",
+      "OwningAccountId": "",
+      "Region": "ap-south-1",
+      "ResourceType": "xray:sampling-rule",
+      "Service": "xray",
+      "Properties": []
+    }
+  ]
+}
